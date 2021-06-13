@@ -20,12 +20,16 @@ h1{
     text-shadow: 2px 2px 4px gray;
 }
 
-ul{
-    margin-left: 30%;
+main img{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
-ol{
-    margin-left: 30%;
+ul, ol{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: max-content;
 }
 
 .link-header{
@@ -33,6 +37,11 @@ ol{
     border-radius: 20px;
     padding: 10px;
     background-image: linear-gradient(to right, #F05F86, #B16EBD, #6C80FA);
+}
+
+.link-header:hover{
+    transition: 2s linear;
+    color: white;
 }
 
 .link-nav{
@@ -48,4 +57,9 @@ footer{
 
 .social{
     margin: 0px 50px 0px 50px;
+}
+
+.social:hover{
+    transition: 2s ease-out;
+    border-bottom: 15px solid black;
 }
